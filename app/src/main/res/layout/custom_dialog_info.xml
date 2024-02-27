@@ -1,0 +1,25 @@
+<!-- custom_dialog_info.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="Para menos de 500 Km percorridos a comissão é de 0.1% do salário por Km\n
+                De 501 a 1000 Km percorridos a comissão é de 0.15% do salário por Km\n
+                De 1001 a 2000 Km percorridos a comissão é de 0.25% do salário por Km\n
+                Acima de 2000 Km percorridos a comissão é de 0.3% do salário por Km\n" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fechar" />
+
+</LinearLayout>
